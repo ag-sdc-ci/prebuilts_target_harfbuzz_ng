@@ -1,0 +1,6 @@
+shadow prebuilt repo: harfbuzz_ng (target)
+  upstream: external/harfbuzz_ng
+  api-level: 32 (branch 32-20261010)
+  blobs: org.blisslabs.ag.harfbuzz_ng-14000001.apex org.blisslabs.ag.harfbuzz_ng.dev-14000001.apex org.blisslabs.ag.harfbuzz_ng.doc-14000001.apex 
+  dev-src: extracted dev payload + regenerated root Android.bp (gen_extractive_bp.py)
+  date: 2026-10-10
