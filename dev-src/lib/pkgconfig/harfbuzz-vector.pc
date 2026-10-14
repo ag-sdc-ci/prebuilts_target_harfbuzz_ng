@@ -1,0 +1,12 @@
+prefix=/apex/org.blisslabs.ag.harfbuzz_ng
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: harfbuzz-vector
+Description: HarfBuzz vector converter
+Version: 14.6.0
+Requires: harfbuzz =  14.6.0
+Requires.private: freetype2 >=  20.0.14, zlib
+Libs: -L${libdir} -lharfbuzz-vector
+Libs.private: -lm -L${libdir} -lharfbuzz -pthread
+Cflags: -I${includedir}/harfbuzz

@@ -1,0 +1,12 @@
+prefix=/apex/org.blisslabs.ag.harfbuzz_ng
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: harfbuzz-cairo
+Description: HarfBuzz cairo support
+Version: 14.6.0
+Requires: harfbuzz =  14.6.0
+Requires.private: freetype2 >=  20.0.14, cairo >=  1.10.0
+Libs: -L${libdir} -lharfbuzz-cairo
+Libs.private: -lm -L${libdir} -lharfbuzz -pthread
+Cflags: -I${includedir}/harfbuzz

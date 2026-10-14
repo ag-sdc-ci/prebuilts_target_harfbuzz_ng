@@ -1,0 +1,17 @@
+{
+	"provideLibs": [	
+		    "libdummy_harfbuzz_ng_dev-x86_64-v2.so",
+		    "libdummy_harfbuzz_ng_dev.so",
+		    "libdummy_headers_harfbuzz_ng-x86_64-v2.so",
+		    "libdummy_headers_harfbuzz_ng.so",
+		    "libdummy_pkgconfig_harfbuzz_ng-x86_64-v2.so",
+		    "libdummy_pkgconfig_harfbuzz_ng.so",
+		    "libharfbuzz-subset-x86_64-v2.so",
+		    "libharfbuzz-subset.so",
+		    "libharfbuzz-x86_64-v2.so",
+		    "libharfbuzz.so",
+		    "libharfbuzz_ng-x86_64-v2.so",
+		    "libharfbuzz_ng.so"
+	],
+	"visible": true
+}

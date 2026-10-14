@@ -1,0 +1,11 @@
+prefix=/apex/org.blisslabs.ag.harfbuzz_ng
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: harfbuzz-subset
+Description: HarfBuzz font subsetter
+Version: 14.6.0
+Requires: harfbuzz =  14.6.0
+Libs: -L${libdir} -lharfbuzz-subset
+Libs.private: -pthread -lm
+Cflags: -I${includedir}/harfbuzz
