@@ -39,6 +39,25 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libharfbuzz_ng",
+    vendor_available: true,
+    product_available: true,
+    recovery_available: true,
+    host_supported: true,
+    check_elf_files: false,
+    export_include_dirs: [
+        "dev-src/include",
+    ],
+    prefer: true,
+    apex_available: [
+        "//apex_available:anyapex",
+        "//apex_available:platform",
+    ],
+    min_sdk_version: "29",
+    srcs: ["src/lib/libharfbuzz.so"],
+}
+
+cc_prebuilt_library_shared {
     name: "libharfbuzz-cairo",
     vendor_available: true,
     product_available: true,
