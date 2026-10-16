@@ -59,6 +59,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libharfbuzz-cairo",
+
     vendor_available: true,
     product_available: true,
     recovery_available: true,
