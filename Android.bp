@@ -27,7 +27,7 @@ cc_prebuilt_library_shared {
     host_supported: true,
     check_elf_files: false,
     export_include_dirs: [
-        "dev-src/include",
+        "include",
     ],
     prefer: true,
     apex_available: [
@@ -35,7 +35,7 @@ cc_prebuilt_library_shared {
         "//apex_available:platform",
     ],
     min_sdk_version: "29",
-    srcs: ["src/lib/libharfbuzz.so"],
+    srcs: ["lib64/libharfbuzz.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -46,7 +46,7 @@ cc_prebuilt_library_shared {
     host_supported: true,
     check_elf_files: false,
     export_include_dirs: [
-        "dev-src/include",
+        "include",
     ],
     prefer: true,
     apex_available: [
@@ -54,7 +54,7 @@ cc_prebuilt_library_shared {
         "//apex_available:platform",
     ],
     min_sdk_version: "29",
-    srcs: ["src/lib/libharfbuzz.so"],
+    srcs: ["lib64/libharfbuzz.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -66,7 +66,7 @@ cc_prebuilt_library_shared {
     host_supported: true,
     check_elf_files: false,
     export_include_dirs: [
-        "dev-src/include",
+        "include",
     ],
     prefer: true,
     apex_available: [
@@ -74,7 +74,7 @@ cc_prebuilt_library_shared {
         "//apex_available:platform",
     ],
     min_sdk_version: "29",
-    srcs: ["src/lib/libharfbuzz-cairo.so"],
+    srcs: ["lib64/libharfbuzz-cairo.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -85,7 +85,7 @@ cc_prebuilt_library_shared {
     host_supported: true,
     check_elf_files: false,
     export_include_dirs: [
-        "dev-src/include",
+        "include",
     ],
     prefer: true,
     apex_available: [
@@ -93,7 +93,7 @@ cc_prebuilt_library_shared {
         "//apex_available:platform",
     ],
     min_sdk_version: "29",
-    srcs: ["src/lib/libharfbuzz-gpu.so"],
+    srcs: ["lib64/libharfbuzz-gpu.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -104,7 +104,7 @@ cc_prebuilt_library_shared {
     host_supported: true,
     check_elf_files: false,
     export_include_dirs: [
-        "dev-src/include",
+        "include",
     ],
     prefer: true,
     apex_available: [
@@ -112,7 +112,7 @@ cc_prebuilt_library_shared {
         "//apex_available:platform",
     ],
     min_sdk_version: "29",
-    srcs: ["src/lib/libharfbuzz-raster.so"],
+    srcs: ["lib64/libharfbuzz-raster.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -123,7 +123,7 @@ cc_prebuilt_library_shared {
     host_supported: true,
     check_elf_files: false,
     export_include_dirs: [
-        "dev-src/include",
+        "include",
     ],
     prefer: true,
     apex_available: [
@@ -131,7 +131,7 @@ cc_prebuilt_library_shared {
         "//apex_available:platform",
     ],
     min_sdk_version: "29",
-    srcs: ["src/lib/libharfbuzz-subset.so"],
+    srcs: ["lib64/libharfbuzz-subset.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -142,7 +142,7 @@ cc_prebuilt_library_shared {
     host_supported: true,
     check_elf_files: false,
     export_include_dirs: [
-        "dev-src/include",
+        "include",
     ],
     prefer: true,
     apex_available: [
@@ -150,5 +150,5 @@ cc_prebuilt_library_shared {
         "//apex_available:platform",
     ],
     min_sdk_version: "29",
-    srcs: ["src/lib/libharfbuzz-vector.so"],
+    srcs: ["lib64/libharfbuzz-vector.so"],
 }
